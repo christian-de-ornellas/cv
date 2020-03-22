@@ -1,0 +1,31 @@
+section {
+  padding: 4rem 0;
+
+
+  .profile {
+    line-height: 2rem;
+
+    a {
+      text-decoration: none;
+      color: #555;
+
+      &:hover {
+        color: #2bcbba;
+      }
+    }
+
+    img {
+      width: 10vw;
+      border-radius: 10rem;
+    }
+  }
+
+  .about {
+    padding: 2rem 0;
+    text-align: center;
+
+    h2 {
+      font-weight: 300;
+    }
+  }
+}

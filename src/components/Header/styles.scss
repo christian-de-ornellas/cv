@@ -1,0 +1,31 @@
+$color-primary: #4b6584;
+$color-secondary: #2bcbba;
+$background-light: #f9f9f9;
+$background-dark: #222222;
+
+nav {
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      padding-left: 2rem;
+      color: $color-secondary;
+    }
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b6584;
+  padding: 2rem 0;
+  border-top: solid 0.6rem $color-secondary;
+
+}
+
+.brand {
+  font-family: 'Fira Code', monospace;
+  color: #2bcbba;
+  font-size: 0.6rem;
+}
